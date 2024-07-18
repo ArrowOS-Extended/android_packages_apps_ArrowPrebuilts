@@ -1,6 +1,6 @@
 android_app_import {
-	name: "DuckDuckGo",
-	apk: "DuckDuckGo/DuckDuckGo.apk",
+	name: "Iceraven",
+	apk: "Iceraven/IceravenBrowser.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
