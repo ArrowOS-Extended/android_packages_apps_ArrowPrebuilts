@@ -1,4 +1,16 @@
 android_app_import {
+        name: "CalendarFossify",
+        apk: "CalendarFossify/CalendarFossify.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        product_specific: true,
+        overrides: ["Calendar"],
+}
+
+android_app_import {
 	name: "Iceraven",
 	apk: "Iceraven/IceravenBrowser.apk",
 	presigned: true,
@@ -23,20 +35,8 @@ android_app_import {
 }
 
 android_app_import {
-        name: "SimpleCalendar",
-        apk: "SimpleCalendar/SimpleCalendar.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-        privileged: true,
-        product_specific: true,
-        overrides: ["Calendar"],
-}
-
-android_app_import {
-        name: "SimpleGallery",
-        apk: "SimpleGallery/SimpleGallery.apk",
+        name: "GalleryFossify",
+        apk: "GalleryFossify/Gallery.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
